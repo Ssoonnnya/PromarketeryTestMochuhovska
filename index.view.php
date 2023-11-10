@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/modal.css">
+
     <link href="https://fonts.cdnfonts.com/css/effra-heavy" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/ca32b369590c4b105ed8cbdf1f8da722?family=GoodDog+New+W00+Regular" rel="stylesheet"> 
     <title>Modal Form</title>
 </head>
 <body>
@@ -37,7 +41,7 @@
     <div><p id="parag">Don’t let your computer memories consumes all of those browser tabs. 
                         Findtrend  let you gathers all of your favorite website into one place.</p></div>
         <div id="getStarted">
-            <button id="getStartedBtn">Get Started</button>
+            <button id="getStartedBtn">Get Started🔥</button>
 
             <div id="modal" class="modal">
                 <div class="modal-content">
@@ -52,11 +56,13 @@
                         <label for="phone">Телефон:</label>
                         <input type="tel" id="phone" name="phone" required>
 
-                        <button type="submit">Відправити</button>
+                        <button id="submit" type="submit">Відправити</button>
                     </form>
                 </div>
             </div>
         </div >
+        <div><p id="allResearch">All research start from here</p></div>
+        <img id="arrow" src="style/files/Arrow 03.svg"/>
         <div id="photos">
             <img id="twitter" src="style/files/Group 9.svg"/>
             <img id="pinterest" src="style/files/Group 10.svg"/>
